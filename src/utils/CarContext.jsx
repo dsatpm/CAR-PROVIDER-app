@@ -1,4 +1,6 @@
 import { createContext, useContext } from 'react';
+import { Provider } from'react-redux';
+import store  from '../store';
 
 // Create our car context using createContext()
 export const CarContext = createContext();
