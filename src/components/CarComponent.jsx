@@ -1,5 +1,5 @@
 import { useReducer, useState } from 'react';
-import {  useCar, CarProvider, useCar  } from '../utils/CarContext';
+import {  useCar, CarProvider  } from '../utils/CarContext';
 import reducer from '../utils/reducers';
 import { START_CAR, STOP_CAR, ADD_CAR } from '../utils/actions';
 
