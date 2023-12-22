@@ -28,5 +28,14 @@ export default function CarProvider(props) {
   ];
 
   // The provider component will wrap all other components inside of it that need access to our global state
-  return <CarContext.Provider value={{ cars }} {...props} />;
-}
+  return(
+    <Provider store = {store}>
+     <CarContext.Provider value={{ cars }} {...props}>
+  
+      </CarContext.Provider>
+      </Provider>
+  )
+
+
+    }
+
