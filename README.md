@@ -30,25 +30,25 @@ A JavaScript library for building user interfaces, providing a component-based a
 ## Getting Started
 ### Clone the Repository:
 
+`Copy code`
 ``` bash
-Copy code
 git clone https://github.com/dsatpm/car_provider.git
 ```
 
 ### Install Dependencies:
+`Copy code`
 ``` bash
-Copy code
 cd car-provider
 npm install
 ```
 ### Run the App:
+`Copy code`
 ``` bash
-Copy code
 npm run dev
 ```
 ### Run Tests:
+`Copy code`
 ``` bash
-Copy code
 npm run test
 ```
 
