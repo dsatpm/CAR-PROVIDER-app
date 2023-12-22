@@ -1,5 +1,5 @@
 import { useReducer, useState } from 'react';
-import { useCar } from '../utils/CarContext';
+import {  useCar, CarProvider, useCar  } from '../utils/CarContext';
 import reducer from '../utils/reducers';
 import { START_CAR, STOP_CAR, ADD_CAR } from '../utils/actions';
 
@@ -12,7 +12,7 @@ export default function CarComponent() {
   const [newCarYear, setNewCarYear] = useState('');
 
   return (
-    <>
+    <CarProvider>
       <h1>Digital Garage</h1>
       <section className="car-input">
         <div>
@@ -82,6 +82,6 @@ export default function CarComponent() {
           </div>
         ))}
       </section>
-    </>
+    </CarProvider>
   );
 }
